@@ -4,8 +4,5 @@
             "type": "composer",
             "url": "https://packagist.phpcomposer.com"
         }
-    },
-    "require": {
-        "pfinal/wechat": "^2.2"
     }
 }
