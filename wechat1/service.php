@@ -1,6 +1,10 @@
 <?php
 
-require_once __DIR__ . '/./vendor/autoload.php';
+// Path to the front controller (this file)
+define('BASEPATH', str_replace(strrchr(trim(__DIR__, '/'), '/'), '', __DIR__));
+
+
+require_once BASEPATH . "/vendor/autoload.php";
 
 use PFinal\Wechat\Kernel;
 use PFinal\Wechat\Message\Receive;
