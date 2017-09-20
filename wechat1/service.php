@@ -27,11 +27,6 @@ Kernel::register(Receive::TYPE_TEXT, function (WechatEvent $event) {
     $event->stopPropagation();
 });
 
-//关注事件
-Kernel::register(Receive::TYPE_EVENT_SUBSCRIBE, function (WechatEvent $event) {
-    $event->setResponse('你关注或是不关注，我都在这里，不悲不喜~~');
-    $event->stopPropagation();
-});
 
 //处理微信服务器的请求
 $response = Kernel::handle();
