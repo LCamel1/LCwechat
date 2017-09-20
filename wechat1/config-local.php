@@ -2,8 +2,8 @@
 return array(
 
     //公众平台 https://mp.weixin.qq.com
-    'appId' => 'wx7c37ca114fdf169b',
-    'appSecret' => '80931781392d99454fdbf9cf86ba649e',
+    'appId' => '',
+    'appSecret' => '',
     'token' => 'lcamel',
     'encodingAesKey' => 'I9ZfsIRrZ5FiefMIDcAt6VTmjrYMGALyWEyzcRfM8SH',
     'middleUrl' => null,         //此参数默认为null即可
